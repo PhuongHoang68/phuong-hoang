@@ -7,8 +7,6 @@
     <title>Phuong Hoang</title>
   </head>
 
-<div class="hero-image"></div>
-
 
   <body>
     <!-- navigation tags - block level element -->
@@ -36,23 +34,31 @@
     <!-- end navigation -->
 
 
-
+    <section>
+      <div class="detail">
+        <h1>I'm Phuong Hoang </h1>
+        <p>Welcome to my personal portfolio page, showcasing
+            <br> All my projects in software development
+        </p>
+        <a href="#">DOWNLOAD RESUME</a>
+        <div class="linkedin">
+            <img src="assets/images/profile.jpg">
+        </div>
+    </div>
+    </section>
 
 
     <!-- "about me" start - <section> -->
-    <section id="about-me" class="intro">
-      <div class="flex-row">
-        <h2 class="section-title primary-border">
-          About Me
-        </h2>
-      </div>
-      <div class="flex-row">
-        <p>
+    <section id="about-me" class="about-me">
+      <div class="title"><h2>About Me</h2>
+        </div>
+        <div>
+          <p>
           Hi, I'm Phuong Hoang, a full-stack developer based in St. Louis, Missouri. I enjoy developing intuitive and interactive web apps with efficient and modern backends. Structure and order are important to me, and this shows through my code. I believe in high-quality apps that meet clients' expectations and improve the day-to-day of their business. </br>
           I graduated from the University of Missouri- St. Louis with a degree in Biology and Marketing. I was admited to the UMKC School of Dentistry, to become a dentist. I eventually discovered my love for programming, and immersed myself in my education to become a software engineer. I am graduating in December of 2022 from Washington University of St. Louis (WASHU) as a full-stack developer. Skills I'm proficient in include Sequelize, React, etc. </br>
           In my free time, I love to exercise to keep fit. Healthy body, healthy mind is my belief. I enjoy coding as a mental exercise. </br>
-        </p>
-      </div>
+          </p>
+        </div>
     </section>
     <!-- end "about me" -->
 
@@ -60,22 +66,46 @@
 
 
     <!-- "work" start -->
-    <section id="work" class="steps">
-      <div class="flex-row">
-        
+    <section id="work" class="work">
+      <div class="title"><h2>Work</h2>
+      </div>
+        <div class = "projects-grid-wrapper">
+          <div class = "projects-grid">
+          <a href="https://notetakerbyphuong.herokuapp.com/" target="_blank" class="project note-taker">
+            <img src="./assets/images/note-taker.jpg" alt="note-taking corner with coffee, laptop and note book"
+            width="width" height="height">
+            <div class="project-label">
+              <h3>Note Taker</h3>
+              <p>JavaScript</p>
+            </div>
+        </a>
+
         <div class="work-link">
+          <a href="https://zoo-kpr.herokuapp.com/" target="_blank" class="project zoo-keeper">
+              <img src="./assets/images/zoo-kpr.jpg" alt="cheetah in zoo enclosure during a snowy winter"
+              width="width" height="height">
+              <div class="project-label">
+                <h3>Zoo Keeper</h3>
+                <p>JavaScript</p>
+              </div>
+          </a>
+      </div>
+
+        </div>
+      </div>
+       <!--  <div class="work-link">
             <a href="https://notetakerbyphuong.herokuapp.com/">
                 <img src="./assets/images/note-taker.jpg" alt="note-taking corner with coffee, laptop and note book"
                 width="width" height="height">
             </a>
-        </div>
+        </div>  -->
 
-        <div class="work-link">
+      <!--  <div class="work-link">
             <a href="https://zoo-kpr.herokuapp.com/">
                 <img src="./assets/images/zoo-kpr.jpg" alt="cheetah in zoo enclosure during a snowy winter"
                 width="width" height="height">
             </a>
-        </div>
+        </div> -->
 
 
       </div>
@@ -89,7 +119,8 @@
 
 
     <!-- "contact me" start -->
-    <section id="contact-me"><div class="flex-row">
+    <section id="contact-me" class="contact-me">
+      <div class="title">
         <h2 class="section-title secondary-border">
           Contact Me
         </h2>
